@@ -81,7 +81,7 @@ function Fleet() {
 						<p>Touring</p>
 					</li>
 					<li className={`${category === 'motocross' && "selected"} py-2 px-8 rounded-full font-bold uppercase bg-white hover:bg-[#2730ed] hover:text-white cursor-pointer transition:all duration-300 ease-linear`} onClick={() => { setCategory('motocross'); bikesRef.current.scrollLeft = 0; }}>
-						<p>Moto-X</p>
+						<p className='whitespace-nowrap'>Moto-X</p>
 					</li>
 				</ul>
 			</div>
