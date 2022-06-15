@@ -11,7 +11,7 @@ function Bike() {
 	useEffect(() => {
 		
 		const fetchData = async () => {
-			const { data } = await axios.get(`http://${location.host}/api/data`)
+			const { data } = await axios.get(`api/data`)
 			setBikeData(data)
 		}
 		fetchData()

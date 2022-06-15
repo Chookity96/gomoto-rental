@@ -4,9 +4,10 @@ import { ChevronDownIcon } from '@heroicons/react/outline'
 import { XCircleIcon } from '@heroicons/react/solid'
 import axios from 'axios'
 import Footer from '../components/Footer'
-import { useRouter } from 'next/router'
+import { useRouter, } from 'next/router'
 
-function Fleet() {
+
+function Fleet( {} ) {
 	const [showFilter, setShowFilter] = useState(false)
 	const [category, setCategory] = useState('all')
 	const [bikeData, setBikeData] = useState([])
@@ -16,7 +17,7 @@ function Fleet() {
 	useEffect(() => {
 		
 		const fetchData = async () => {
-			const { data } = await axios.get(`http://${location.host}/api/data`)
+			const { data } = await axios.get(`api/data`)
 			setBikeData(data)
 		}
 		fetchData()
@@ -62,6 +63,7 @@ function Fleet() {
 		});
 	}, []);
 
+	console.log(bikeData)
 	return (
 		<div className="bg-[#001951]">
 			<Nav />
@@ -155,3 +157,15 @@ function Fleet() {
 }
 
 export default Fleet
+
+// export async function getServerSideProps(context) {
+//   // const startIndex = context.query.start || '0'
+
+//   // const { data } = await axios.get(`http://${location.host}/api/data`)
+
+//   return {
+//     props: {
+//       results: data,
+//     },
+//   }
+// }
