@@ -6,7 +6,7 @@ import axios from 'axios'
 import Footer from '../components/Footer'
 import { useRouter } from 'next/router'
 
-function fleet() {
+function Fleet() {
 	const [showFilter, setShowFilter] = useState(false)
 	const [category, setCategory] = useState('all')
 	const [bikeData, setBikeData] = useState([])
@@ -155,4 +155,4 @@ function fleet() {
 	)
 }
 
-export default fleet
+export default Fleet

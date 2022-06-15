@@ -5,7 +5,7 @@ import { useRouter } from 'next/router'
 import Footer from '../../../components/Footer'
 import { ChevronLeftIcon } from '@heroicons/react/outline'
 
-function bike() {
+function Bike() {
 	const [bikeData, setBikeData] = useState([])
 	const navigate = useRouter()
 	const fetchData = async () => {
@@ -90,4 +90,4 @@ function bike() {
 	)
 }
 
-export default bike
+export default Bike
