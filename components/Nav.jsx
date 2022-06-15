@@ -138,7 +138,7 @@ function Nav({ className }) {
 				</div>
 
 				<div className={`fixed flex justify-center items-center bg-[#001951] top-20 left-0 w-full h-full pb-24 ${search ? 'opacity-100 visible z-[100]' : 'opacity-0 invisible z-0'} lg:hidden`}>
-					<input type="text" placeholder='Search...' className='text-[#19f9b9] text-5xl font-bold max-w-2xl placeholder:text-[#19f9b9] border-t-0 border-x-0 border-[#19f9b9] bg-[#001951] w-4/5 cursor-not-allowed' />
+					<input type="text" disabled placeholder='Search...' className='text-[#19f9b9] text-5xl font-bold max-w-2xl placeholder:text-[#19f9b9] border-t-0 border-x-0 border-[#19f9b9] bg-[#001951] w-4/5 cursor-not-allowed' />
 				</div>
 			</div>
 		</div>
