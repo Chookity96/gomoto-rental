@@ -13,14 +13,13 @@ function Fleet() {
 	const [filter, setFilter] = useState([])
 	const [filteredData, setFilteredData] = useState([])
 	const navigate = useRouter()
-	const fetchData = async () => {
-		const { data } = await axios.get('http://localhost:3000/api/data')
-		setBikeData(data)
-	}
-
 	useEffect(() => {
+		
+		const fetchData = async () => {
+			const { data } = await axios.get(`http://${location.host}/api/data`)
+			setBikeData(data)
+		}
 		fetchData()
-
 	}, []);
 	const filteredCategoryData = bikeData.find(bikes => bikes.category === category);
 	const allbikes = []

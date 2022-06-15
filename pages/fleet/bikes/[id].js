@@ -8,14 +8,14 @@ import { ChevronLeftIcon } from '@heroicons/react/outline'
 function Bike() {
 	const [bikeData, setBikeData] = useState([])
 	const navigate = useRouter()
-	const fetchData = async () => {
-		const { data } = await axios.get('http://localhost:3000/api/data')
-		setBikeData(data)
-	}
-
 	useEffect(() => {
+		
+		const fetchData = async () => {
+			const { data } = await axios.get(`http://${location.host}/api/data`)
+			setBikeData(data)
+		}
 		fetchData()
-	}, [])
+	}, []);
 	const allbikes = []
 	const filterStreet = bikeData.find((bikes) => bikes.category === 'street')
 	const filterSports = bikeData.find((bikes) => bikes.category === 'sports')

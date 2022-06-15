@@ -27,14 +27,15 @@ function Fleet() {
 		}, 50);
 	}
 
-	const fetchData = async () => {
-		const { data } = await axios.get('http://localhost:3000/api/data')
-		setBikeData(data)
-	}
+
 
 	useEffect(() => {
+		
+		const fetchData = async () => {
+			const { data } = await axios.get(`http://${location.host}/api/data`)
+			setBikeData(data)
+		}
 		fetchData()
-
 	}, []);
 
 
