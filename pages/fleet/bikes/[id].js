@@ -11,7 +11,7 @@ function Bike() {
 	useEffect(() => {
 		
 		const fetchData = async () => {
-			const { data } = await axios.get(`api/data`)
+			const { data } = await axios.get(`https://62aa09d13b3143855440da67.mockapi.io/api/fleetdata/fleetdata`)
 			setBikeData(data)
 		}
 		fetchData()
