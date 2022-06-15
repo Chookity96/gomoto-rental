@@ -32,7 +32,7 @@ function Fleet() {
 	useEffect(() => {
 		
 		const fetchData = async () => {
-			const { data } = await axios.get(`api/data`)
+			const { data } = await axios.get(`https://62aa09d13b3143855440da67.mockapi.io/api/fleetdata/fleetdata`)
 			setBikeData(data)
 		}
 		fetchData()
@@ -50,7 +50,6 @@ function Fleet() {
 	filterTouring?.bikes.forEach(bikes => allbikes.push(bikes))
 	filterMoto?.bikes.forEach(bikes => allbikes.push(bikes))
 	const bikesRef = useRef(null)
-
 	return (
 		<div className='w-full max-w-6xl mx-auto space-y-5 p-5'>
 			<div className='flex justify-between items-center'>

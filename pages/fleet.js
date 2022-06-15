@@ -17,7 +17,7 @@ function Fleet( {} ) {
 	useEffect(() => {
 		
 		const fetchData = async () => {
-			const { data } = await axios.get(`api/data`)
+			const { data } = await axios.get(`https://62aa09d13b3143855440da67.mockapi.io/api/fleetdata/fleetdata`)
 			setBikeData(data)
 		}
 		fetchData()
@@ -161,7 +161,7 @@ export default Fleet
 // export async function getServerSideProps(context) {
 //   // const startIndex = context.query.start || '0'
 
-//   // const { data } = await axios.get(`http://${location.host}/api/data`)
+//   // const { data } = await axios.get(`https://62aa09d13b3143855440da67.mockapi.io/api/fleetdata/fleetdata`)
 
 //   return {
 //     props: {
