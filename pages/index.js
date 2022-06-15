@@ -3,7 +3,6 @@ import Image from 'next/image'
 import Fleet from '../components/Fleet'
 import KeyPoint from '../components/KeyPoint'
 import Nav from '../components/Nav'
-import Carousel from '../components/Carousel'
 import Header from '../components/Header'
 import KeyPoints from '../components/KeyPoints'
 import Footer from '../components/Footer'
@@ -26,7 +25,6 @@ export default function Home() {
 			{/* Header */}
 			{/* <Header /> */}
 
-			{/* <Carousel /> */}
 
 			{/* Locations */}
 
