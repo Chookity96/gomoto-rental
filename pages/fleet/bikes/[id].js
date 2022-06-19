@@ -77,7 +77,7 @@ function Bike() {
 							User guide
 						</h1>
 						<p className="text-white text-xl sm:text-2xl mb-10">
-							Learn more about this car
+							Learn more about this bike
 						</p>
 						<button className="border-2 border-[#19f9b9] bg-[#19f9b9] cursor-pointer py-2 px-4 text-xl rounded-md font-semibold max-w-[240px]">
 							Learn more

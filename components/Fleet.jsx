@@ -30,7 +30,7 @@ function Fleet() {
 
 
 	useEffect(() => {
-		
+
 		const fetchData = async () => {
 			const { data } = await axios.get(`https://62aa09d13b3143855440da67.mockapi.io/api/fleetdata/fleetdata`)
 			setBikeData(data)
@@ -87,6 +87,25 @@ function Fleet() {
 			</div>
 			<div className='flex overflow-x-scroll scrollbar-hide space-x-4 transition-all ease-linear scroll-smooth' ref={bikesRef}>
 				{
+					(category === 'all' ? allbikes : filteredCategoryData?.bikes).map((bike, index) => (
+						<div key={index} id={bike.id} className="bg-[#2730ed] min-h-[280px] min-w-[180px] rounded-xl z-10 cursor-pointer md:min-w-[240px] lg:min-w-[300px]" onClick={() => navigate.push(`/fleet/bikes/${bike.id}`)}>
+							<div className='flex flex-col justify-between h-full w-full'>
+								<div className='p-3 text-white space-y-2'>
+									<p className='opacity-80 text-sm'>Standard</p>
+									<h1 className="text-3xl font-semibold">{bike.name}</h1>
+									<p className="text-md capitalize">{bike.type}</p>
+								</div>
+
+								<div className=''>
+									<img src={bike.image} alt="" className="rounded-b-xl" />
+								</div>
+							</div>
+						</div>
+
+					))
+				}
+
+				{/* {
 					category === 'all' ? (
 						allbikes.map((bike, index) => (
 							<div key={index} id={bike.id} className="bg-[#2730ed] min-h-[280px] min-w-[180px] rounded-xl z-10 cursor-pointer md:min-w-[240px] lg:min-w-[300px]" onClick={() => navigate.push(`/fleet/bikes/${bike.id}`)}>
@@ -123,7 +142,7 @@ function Fleet() {
 						))
 					)
 
-				}
+				} */}
 			</div>
 
 			<div className='flex justify-between items-center min-w-[240px]'>

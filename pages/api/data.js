@@ -178,52 +178,52 @@ export default function handler(req, res) {
 // 	 "category": "street",
 // 	 "bikes": [
 // 		{
-// 		 "name": "Street Bike 1",
+// 		 "name": "XSR700",
 // 		 "id": "street1",
 // 		 "type": "street",
-// 		 "about": "Liquid-cooled, 4-stroke, DOHC, 4-valves, Electric Starter System, 14L Fuel Tank Capacity",
+// 		 "about": "Displacement of 689cc, Electric Starter System, 14L Fuel Tank Capacity, CP2, Two cylinder, 4-valves, 4-stroke, Liquid-cooled, DOHC",
 // 		 "image": "https://www.hlcorp.com.sg/motorcycles/images_information/pproducts_167.jpg"
 // 		},
 // 		{
-// 		 "name": "Street Bike 2",
+// 		 "name": "XSR900",
 // 		 "id": "street2",
 // 		 "type": "street",
-// 		 "about": "Liquid-cooled, 4-stroke, DOHC, 4-valves, Electric Starter System, 14L Fuel Tank Capacity",
+// 		 "about": "Displacement of 890cc, Electric Starter System, 14L Fuel Tank Capacity, 4-valves, 3-cylinder, EURO5, 4-stroke, Liquid-cooled, DOHC",
 // 		 "image": "https://www.hlcorp.com.sg/motorcycles/images_information/pproducts_168.jpg"
 // 		},
 // 		{
-// 		 "name": "Street Bike 3",
+// 		 "name": "MT-07",
 // 		 "id": "street3",
 // 		 "type": "street",
-// 		 "about": "Liquid-cooled, 4-stroke, DOHC, 4-valves, Electric Starter System, 14L Fuel Tank Capacity",
+// 		 "about": "Displacement of 689cc, Electric Starter System, 14L Fuel Tank Capacity, 2-cylinder, 4-stroke, Liquid-cooled, DOHC, 4-valves",
 // 		 "image": "https://www.hlcorp.com.sg/motorcycles/images_information/pproducts_161.jpg"
 // 		},
 // 		{
-// 		 "name": "Street Bike 4",
+// 		 "name": "MT 09",
 // 		 "id": "street4",
 // 		 "type": "street",
-// 		 "about": "Liquid-cooled, 4-stroke, DOHC, 4-valves, Electric Starter System, 14L Fuel Tank Capacity",
+// 		 "about": "Displacement of 890cc, Electric Starter System, 14L Fuel Tank Capacity, Liquid-cooled, 4-stroke, 4-valves, 3-cylinder, DOHC",
 // 		 "image": "https://www.hlcorp.com.sg/motorcycles/images_information/pproducts_156.jpg"
 // 		},
 // 		{
-// 		 "name": "Street Bike 5",
+// 		 "name": "MT-09 SP",
 // 		 "id": "street5",
 // 		 "type": "street",
-// 		 "about": "Liquid-cooled, 4-stroke, DOHC, 4-valves, Electric Starter System, 14L Fuel Tank Capacity",
+// 		 "about": "Displacement of 890cc, Electric Starter System, 14L Fuel Tank Capacity, Liquid-cooled, 4-stroke, 4-valves, 3-cylinder, DOHC",
 // 		 "image": "https://www.hlcorp.com.sg/motorcycles/images_information/pproducts_157.jpg"
 // 		},
 // 		{
-// 		 "name": "Street Bike 6",
+// 		 "name": "MT-10",
 // 		 "id": "street6",
 // 		 "type": "street",
-// 		 "about": "Liquid-cooled, 4-stroke, DOHC, 4-valves, Electric Starter System, 14L Fuel Tank Capacity",
+// 		 "about": "Displacement of 998cc, Electric Starter System, 17L Fuel Tank Capacity, EURO5, 4-stroke, Liquid-cooled, 4-cylinder, DOHC",
 // 		 "image": "https://www.hlcorp.com.sg/motorcycles/images_information/pproducts_129.jpg"
 // 		},
 // 		{
-// 		 "name": "Street Bike 7",
+// 		 "name": "MT-10 SP",
 // 		 "id": "street7",
 // 		 "type": "street",
-// 		 "about": "Liquid-cooled, 4-stroke, DOHC, 4-valves, Electric Starter System, 14L Fuel Tank Capacity",
+// 		 "about": "Displacement of 998cc, Electric Starter System, 17L Fuel Tank Capacity, EURO5, 4-stroke, Liquid-cooled, 4-cylinder, DOHC",
 // 		 "image": "https://www.hlcorp.com.sg/motorcycles/images_information/pproducts_135.jpg"
 // 		}
 // 	 ]
@@ -232,31 +232,31 @@ export default function handler(req, res) {
 // 	 "category": "sports",
 // 	 "bikes": [
 // 		{
-// 		 "name": "Sports Bike 1",
+// 		 "name": "R7 World GP",
 // 		 "id": "sports1",
 // 		 "type": "street",
-// 		 "about": "Liquid-cooled, 4-stroke, DOHC, 4-valves, Electric Starter System, 14L Fuel Tank Capacity",
+// 		 "about": "Displacement of 689cc, Electric Starter System, 13L Fuel Tank Capacity, 2-cylinder, Liquid-cooled, EURO5, 4-stroke, 4-valves, DOHC",
 // 		 "image": "https://www.hlcorp.com.sg/motorcycles/images_information/pproducts_166.jpg"
 // 		},
 // 		{
-// 		 "name": "Sports Bike 2",
+// 		 "name": "YZF-R1",
 // 		 "id": "sports2",
 // 		 "type": "street",
-// 		 "about": "Liquid-cooled, 4-stroke, DOHC, 4-valves, Electric Starter System, 14L Fuel Tank Capacity",
+// 		 "about": "Displacement of 998cc, Electric Starter System, 18L Fuel Tank Capacity, Liquid-cooled, 4-stroke, forward-inclined parallel 4-cylinder, 4-valves, DOHC",
 // 		 "image": "https://www.hlcorp.com.sg/motorcycles/images_information/pproducts_14.jpg"
 // 		},
 // 		{
-// 		 "name": "Sports Bike 3",
+// 		 "name": "YZF-R1M",
 // 		 "id": "sports3",
 // 		 "type": "street",
-// 		 "about": "Liquid-cooled, 4-stroke, DOHC, 4-valves, Electric Starter System, 14L Fuel Tank Capacity",
+// 		 "about": "Displacement of 998cc, Electric Starter System, 17L Fuel Tank Capacity, 4-stroke, liquid-cooled, forward-inclined parallel 4-cylinder, DOHC, 4-valves",
 // 		 "image": "https://www.hlcorp.com.sg/motorcycles/images_information/pproducts_115.jpg"
 // 		},
 // 		{
-// 		 "name": "Sports Bike 4",
+// 		 "name": "YZF-R3",
 // 		 "id": "sports4",
 // 		 "type": "street",
-// 		 "about": "Liquid-cooled, 4-stroke, DOHC, 4-valves, Electric Starter System, 14L Fuel Tank Capacity",
+// 		 "about": "Displacement of 321cc, Electric Starter System, 14L Fuel Tank Capacity, 2-cylinder, 4-stroke, liquid-cooled, DOHC, 4-valves",
 // 		 "image": "https://www.hlcorp.com.sg/motorcycles/images_information/pproducts_143.jpg"
 // 		}
 // 	 ]
@@ -265,24 +265,24 @@ export default function handler(req, res) {
 // 	 "category": "touring",
 // 	 "bikes": [
 // 		{
-// 		 "name": "Touring Bike 1",
+// 		 "name": "Tracer 9 GT",
 // 		 "id": "touring1",
 // 		 "type": "touring",
-// 		 "about": "Liquid-cooled, 4-stroke, DOHC, 4-valves, Electric Starter System, 14L Fuel Tank Capacity",
+// 		 "about": "Displacement of 847cc, Electric Starter System, 18L Fuel Tank Capacity, 3-Cylinder, 4-stroke, liquid-cooled, DOHC, 4-valves",
 // 		 "image": "https://www.hlcorp.com.sg/motorcycles/images_information/pproducts_141.jpg"
 // 		},
 // 		{
-// 		 "name": "Touring Bike 2",
+// 		 "name": "NIKEN GT",
 // 		 "id": "touring2",
 // 		 "type": "touring",
-// 		 "about": "Liquid-cooled, 4-stroke, DOHC, 4-valves, Electric Starter System, 14L Fuel Tank Capacity",
+// 		 "about": "Displacement of 847cc, Electric Starter System, 18L Fuel Tank Capacity, 3-cylinder, 4-stroke, liquid-cooled, DOHC, 4-valves",
 // 		 "image": "https://www.hlcorp.com.sg/motorcycles/images_information/pproducts_144.jpg"
 // 		},
 // 		{
-// 		 "name": "Touring Bike 3",
+// 		 "name": "XV950R",
 // 		 "id": "touring3",
 // 		 "type": "motocross",
-// 		 "about": "Liquid-cooled, 4-stroke, DOHC, 4-valves, Electric Starter System, 14L Fuel Tank Capacity",
+// 		 "about": "Displacement of 942cc, Electric Starter System, 17L Fuel Tank Capacity, 4-stroke, air-cooled, 4-valves, SOHC, V-type 2-cylinder",
 // 		 "image": "https://www.hlcorp.com.sg/motorcycles/images_information/pproducts_58.jpg"
 // 		}
 // 	 ]
@@ -291,17 +291,17 @@ export default function handler(req, res) {
 // 	 "category": "motocross",
 // 	 "bikes": [
 // 		{
-// 		 "name": "Moto-X Bike 1",
+// 		 "name": "WR450F",
 // 		 "id": "motocross1",
 // 		 "type": "motocross",
-// 		 "about": "Liquid-cooled, 4-stroke, DOHC, 4-valves, Electric Starter System, 14L Fuel Tank Capacity",
+// 		 "about": "Displacement of 450cc, Electric Starter System, 8L Fuel Tank Capacity, Liquid-cooled, 4-stroke, 4-valves, DOHC",
 // 		 "image": "https://www.hlcorp.com.sg/motorcycles/images_information/pproducts_79.jpg"
 // 		},
 // 		{
-// 		 "name": "Moto-X Bike 2",
+// 		 "name": "Ténéré 700",
 // 		 "id": "motocross2",
 // 		 "type": "motocross",
-// 		 "about": "Liquid-cooled, 4-stroke, DOHC, 4-valves, Electric Starter System, 14L Fuel Tank Capacity",
+// 		 "about": "Displacement of 690cc, Electric Starter System, 16L Fuel Tank Capacity, Liquid-cooled, 4-stroke, 4-valves, DOHC, 2-cylinder",
 // 		 "image": "https://www.hlcorp.com.sg/motorcycles/images_information/pproducts_153.jpg"
 // 		}
 // 	 ]
