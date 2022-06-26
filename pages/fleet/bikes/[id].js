@@ -37,7 +37,7 @@ function Bike() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Nav className="w-full" />
-      <div className='absolute bg-white top-24 lg:top-20 left-0 w-full h-[394px]'></div>
+      <div className='absolute bg-white top-24 lg:top-20 left-0 w-full h-[394px] overflow-hidden'></div>
         <div className="w-full mx-auto space-y-4 max-w-6xl">
           <div className="flex flex-col-reverse justify-between p-5 md:flex-row relative bg-white">
             {/* <div className='absolute bg-white top-0 left-[-190px] w-screen h-28 z-[0'></div> */}
